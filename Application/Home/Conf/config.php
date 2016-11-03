@@ -4,7 +4,7 @@ return array(
 	// 'DB_TYPE'         => 'sqlite',
 	// 'DB_DSN'          => 'sqlite:./myDb.db;dbname=myDb;charset=UTF8',
 	// 'DB_TYPE'	=> 'pdo'
-	'DB_TYPE'    => 'sqlite'
-	'DB_NAME'    => './myDb.db'
+	// 'DB_TYPE'    => 'sqlite3'
+	// 'DB_NAME'    => './mydb.db'
 
 );
