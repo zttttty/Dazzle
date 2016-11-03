@@ -16,3 +16,15 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
 ERR: 无法加载模块:Script src=
 
+[ 2016-11-03T20:38:40+08:00 ] ::1 /Dazzle/Test/model
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+ERR: 无法加载模块:Test
+
+[ 2016-11-03T20:39:42+08:00 ] ::1 /Dazzle/Test/model
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+ERR: 无法加载模块:Test
+
