@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Socialization</title>
+<!-- Load CSS -->
+<link href="__PUBLIC__/css/style.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/css/verticalMenu.css" rel="stylesheet" />
+<link rel="stylesheet" href="__PUBLIC__/css/iconfont.css">
+<link href="http://cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" media="screen">
+<!-- <script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script> -->
+<!-- Load jQuery library -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<!-- Load jCarousel js -->
+<script type="text/javascript" src="__PUBLIC__/js/jquery.jcarousel.js"></script>
+<!-- Load MixItUup js -->
+<script type="text/javascript" src="__PUBLIC__/js/jquery.mixitup.js"></script>
+<!-- Load js -->
+<script type="text/javascript" src="__PUBLIC__/js/custom.js"></script>
+<style type="text/css">
+	.left {
+    	float:left;
+    	margin-top: 80px;
+    	padding:10px 50px;
+    	padding-right: 0px;
+    	background: #f3f3f3;
+    	height: 100%;
+    	border-right: 0.3em solid #dad9d9;
+    	/*border: 1px solid #000000;*/
+    }   
+    .personal {
+    	margin-left: 50px;
+    }  
+    .personal h1 {
+    	font-size: 50px;
+    	color: #02af7c;
+    	text-align: center;
+    }
+    .personal h2 {
+    	font-family: "Microsoft Yahei";
+    	font-size: 20px;
+    	color:#a09f9f;
+    	font-weight: 300;
+    }
+
+    .iconfont {
+  		float:left;
+  		font-family:"iconfont" !important;
+  		font-size:80px;font-style:normal;
+  		color: #dcdcdc;
+  		background: #efefef;
+  		padding:20px 20px;
+  		margin-top: 20px;
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-stroke-width: 0.2px;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .list_right {
+		float: left;
+		/*border:1px solid #000000;*/
+		margin-top: 100px;
+		width:1300px;
+		height:800px;
+	}
+</style>
+</head>
+<!-- Start Body -->
+<body>
+	<!-- Start Menu -->
+	<div class="menubar" data-scroll="false">
+		<a href="index.html" class="logo"></a>
+		<ul class="mainmenu">
+			<li><a href="index.html">我的运动</a></li>
+			<li class="active"><a href="socialization.html">社交圈</a></li>
+			<li><a href="activity.html">活动</a></li>
+		</ul>
+	</div>
+	<!-- End Menu -->
+
+	<div class="left">
+		<table>
+			<tr>
+				<td style="padding-bottom: 30px">
+					<div class="personal">
+						<div>
+							<i class="iconfont">&#x7403;</i>
+							<div style="margin-left:20px; float:left">
+								<h1>zt</h2>
+								<h2>战斗等级 0</h2>
+								<h2>金币 1w</h2>
+							</div>
+						</div>
+<!-- 						<div>
+							<button type="button" class="myButton">发起活动</button>
+							<div style="margin-left:50px;margin-top:20px;float:left">
+								<a href="#"><h3>介绍</h3></a>
+								<a href="#"><h3>规则</h3></a>
+							</div>
+						</div> -->
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="verticalMenu">
+						<ul>
+							<li><a href="javascript:changeit('friend_list.html');">我的好友</a></li>
+							<li><a href="javascript:changeit('focused_list.html');">我关注的人</a></li>
+							<li><a href="javascript:changeit('fan_list.html');">我的粉丝圈</a></li>			
+						</ul>
+    				</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+	
+	<div class="list_right">
+    	<iframe id="friends"  src="friend_list.html" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
+    	<script>
+			function changeit(url){
+  			friends.src=url;
+			}
+		</script>
+    </div>
+
+	<div class="clear"></div>
+    <footer class="footer">
+		<a href="#"><h6>Contruct me with 1921762406@qq.com</h6></a>
+	</footer>
+
+</body>
+<!-- End Body -->
+</html>

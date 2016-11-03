@@ -1,0 +1,175 @@
+.verticalMenu {
+padding: 0;
+margin: 0;
+border: 0;
+line-height: 1;
+/*margin-left:100px;*/
+/*margin-top: 50px;*/
+/*border:1px solid #767676;*/
+/*float: left;*/
+}
+.verticalMenu ul,
+.verticalMenu ul li,
+.verticalMenu ul ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+.verticalMenu ul {
+position: relative;
+z-index: 500;
+float: left;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+.verticalMenu ul li {
+float: left;
+min-height: 0.05em;
+line-height: 1.5em;
+vertical-align: middle;
+position: relative;
+}
+.verticalMenu ul li.hover,
+.verticalMenu ul li:active {
+position: relative;
+z-index: 510;
+cursor: default;
+}
+.verticalMenu ul ul {
+visibility: hidden;
+position: absolute;
+top: 100%;
+left: 0px;
+z-index: 520;
+width: 100%;
+}
+.verticalMenu ul li {
+float: none;
+}
+.verticalMenu {
+width: 25em;
+background: #f3f3f3;
+font-family: 'Microsoft Yahei', Tahoma, Arial, sans-serif;
+zoom: 1;
+}
+.verticalMenu:before {
+content: '';
+display: block;
+}
+.verticalMenu:after {
+content: '';
+display: table;
+clear: both;
+}
+.verticalMenu a {
+display: block;
+padding: 1em 1.3em;
+color: #767676;
+text-decoration: none;
+text-transform: uppercase;
+text-align: center;
+}
+.verticalMenu > ul {
+width: 25em;
+border-top:1px solid #ccc
+}
+/*.verticalMenu ul ul {
+width: 13em;
+}*/
+.verticalMenu > ul > li > a {
+/*border-right: 0.3em solid #dad9d9;*/
+color: #767676;
+font-family: "Microsoft Yahei";
+font-size: 20px;
+}
+.verticalMenu > ul > li > a:hover {
+color: #f3f3f3;
+border-right: 0.3em solid #375a7b;
+}
+.verticalMenu > ul > li a:hover,
+.verticalMenu > ul > li:hover a {
+background: #375a7b;
+}
+.verticalMenu li {
+position: relative;
+}
+.verticalMenu ul li.has-sub > a:after {
+content: '»';
+position: absolute;
+right: 1em;
+}
+.verticalMenu ul ul li.first {
+-webkit-border-radius: 0 3px 0 0;
+-moz-border-radius: 0 3px 0 0;
+border-radius: 0 3px 0 0;
+}
+.verticalMenu ul ul li.last {
+-webkit-border-radius: 0 0 3px 0;
+-moz-border-radius: 0 0 3px 0;
+border-radius: 0 0 3px 0;
+border-bottom: 0;
+}
+.verticalMenu ul ul {
+-webkit-border-radius: 0 3px 3px 0;
+-moz-border-radius: 0 3px 3px 0;
+border-radius: 0 3px 3px 0;
+}
+.verticalMenu ul ul {
+border: 1px solid #0082e7;
+}
+.verticalMenu ul ul a {
+color: #ffffff;
+}
+.verticalMenu ul ul a:hover {
+color: #ffffff;
+}
+.verticalMenu ul li {
+/*border-bottom:1px solid #ccc*/
+}
+.verticalMenu ul ul li:hover > a {
+background: #4eb1ff;
+color: #ffffff;
+}
+.verticalMenu.align-right > ul > li > a {
+border-left: 0.3em solid #1b9bff;
+border-right: none;
+}
+.verticalMenu.align-right {
+float: right;
+}
+.verticalMenu.align-right li {
+text-align: right;
+}
+.verticalMenu.align-right ul li.has-sub > a:before {
+content: '+';
+position: absolute;
+top: 50%;
+left: 15px;
+margin-top: -6px;
+}
+.verticalMenu.align-right ul li.has-sub > a:after {
+content: none;
+}
+.verticalMenu.align-right ul ul {
+visibility: hidden;
+position: absolute;
+top: 0;
+left: -100%;
+z-index: 598;
+width: 100%;
+}
+.verticalMenu.align-right ul ul li.first {
+-webkit-border-radius: 3px 0 0 0;
+-moz-border-radius: 3px 0 0 0;
+border-radius: 3px 0 0 0;
+}
+.verticalMenu.align-right ul ul li.last {
+-webkit-border-radius: 0 0 0 3px;
+-moz-border-radius: 0 0 0 3px;
+border-radius: 0 0 0 3px;
+}
+.verticalMenu.align-right ul ul {
+-webkit-border-radius: 3px 0 0 3px;
+-moz-border-radius: 3px 0 0 3px;
+border-radius: 3px 0 0 3px;
+}
