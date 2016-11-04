@@ -7,5 +7,9 @@ class TestController extends Controller {
 		$user = M('user');
 		var_dump($user->select());
 	}
+
+	public function login(){
+		$this->display('Index:login');
+	}
 }
 ?>

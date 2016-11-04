@@ -292,7 +292,7 @@ h6
 {
     float: right;
 }
-.clear#FFFFFF
+.clear
 {
     clear: both;
 }
@@ -1089,7 +1089,7 @@ li.filter
 }
 li.filter:hover
 {
-    color: #6093e7;
+    color: #6093E7;
 }
 li.filter.active
 {
